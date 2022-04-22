@@ -28,8 +28,7 @@
         <!-- RSocket properties -->
         <rsocket-broker-client-spring.version>0.3.0</rsocket-broker-client-spring.version>
         <!-- Schema properties -->
-        <cg-rest-schema.version>0.0.1-SNAPSHOT</cg-rest-schema.version>
-        <rsocket-proto-schema.version>0.0.1-SNAPSHOT</rsocket-proto-schema.version>
+        <protobuf-schema.version>0.0.1-SNAPSHOT</protobuf-schema.version>
         <!-- Utilities properties -->
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
@@ -67,9 +66,9 @@
 
         <!-- Start: schema libraries -->
         <dependency>
-            <groupId>com.sachin.protobuf.rsocket</groupId>
-            <artifactId>rsocket-proto-schema</artifactId>
-            <version>${rsocket-proto-schema.version}</version>
+            <groupId>com.sachin.protobuf</groupId>
+            <artifactId>protobuf-schema</artifactId>
+            <version>${protobuf-schema.version}</version>
         </dependency>
         <!-- End: schema libraries -->
 
