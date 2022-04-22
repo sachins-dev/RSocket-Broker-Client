@@ -1,0 +1,14 @@
+io:
+  rsocket:
+    broker:
+      client:
+        route-id: 00000000-0000-0000-0000-000000000022
+        service-name: rsocket-server
+        tags:
+          INSTANCE_NAME: rsocket-server-1
+        brokers:
+          - tcp://localhost:9010
+
+logging:
+  level:
+    io.rsocket.broker.client: trace

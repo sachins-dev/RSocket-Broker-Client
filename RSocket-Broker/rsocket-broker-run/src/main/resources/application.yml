@@ -1,0 +1,9 @@
+io.rsocket.broker:
+  broker-id: 00000000-0000-0000-0000-000000000011
+  uri: tcp://localhost:9010
+  cluster:
+    uri: tcp://localhost:9000
+
+logging:
+  level:
+    io.rsocket.broker: TRACE
