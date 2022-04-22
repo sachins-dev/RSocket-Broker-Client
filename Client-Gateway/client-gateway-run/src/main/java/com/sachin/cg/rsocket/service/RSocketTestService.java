@@ -20,7 +20,7 @@ public class RSocketTestService {
     private final RSocketRequester rSocketRequester;
 
     public Mono<SimpleResponse> requestResponse(Mono<SimpleRequest> requestMono) {
-        return this.rSocketRequester.route("sample.rr")
+        return this.rSocketRequester.route("simple.rr")
                 .data(requestMono).retrieveMono(SimpleResponse.class);
     }
 
